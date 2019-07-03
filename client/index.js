@@ -1,13 +1,7 @@
-/**
- * External dependencies.
- */
 import React from 'react';
-const { render } = window.wp.element;
-
-/**
- * Internal dependencies.
- */
 import BlockPreview from 'components/block-preview';
+
+const { render } = window.wp.element;
 
 const temp = document.createElement( 'div' );
 const scriptUrlsString = document.getElementById( 'preview' ).getAttribute( 'data-script-urls' );

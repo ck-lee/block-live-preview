@@ -24,4 +24,5 @@ grunt build
 * Browse to `https://{wordpress_site}/?block=boxer-block`.
 
 ## Notes
+* Part of a working prototype for [Block Directory Proposal](https://make.wordpress.org/meta/2019/03/08/the-block-directory-and-a-new-type-of-plugin/).
 * Adapted from [Gutenberg theme](https://meta.svn.wordpress.org/sites/trunk/wordpress.org/public_html/wp-content/themes/pub/gutenberg/).
