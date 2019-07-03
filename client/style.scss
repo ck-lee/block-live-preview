@@ -1,0 +1,34 @@
+@import "styles/components/components";
+
+#editor {
+    .edit-post-layout{
+        display: flex;
+        padding-top: 0;
+        border-bottom: 1px solid #e2e4e7;
+
+        .edit-post-header {
+            display: none;
+        }
+        .edit-post-header, .edit-post-layout__content, .edit-post-sidebar {
+            position: relative;
+        }
+        .edit-post-layout__content{
+            margin-right: 36px;
+            flex-grow: 1;
+            top: 0;
+        }
+
+        .edit-post-sidebar {
+            top: 0;
+            height: 100%;
+        }
+
+        .editor-styles-wrapper {
+            padding-top: 0;
+        }
+
+        .editor-post-title {
+            display: none;
+        }
+    }
+}
